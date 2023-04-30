@@ -4,11 +4,13 @@ export default function App() {
     <View style={{
       flex: 1,
       backgroundColor: '#131016',
-      padding: 24
+      padding: 24,
+      display:"flex",
+      alignItems:"center",
     }}>
       <Text style={{
           color: '#FDFCFE',
-          fontSize: 24,
+          fontSize: 28,
           fontWeight: 'bold',
           marginTop: 48
         }}>
