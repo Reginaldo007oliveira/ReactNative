@@ -2,6 +2,7 @@ import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
   container: {
+    flex: 1,
     width: '100%',
     backgroundColor: '#1F1E25',
     borderRadius: 5,
@@ -16,14 +17,14 @@ export const styles = StyleSheet.create({
     marginLeft: 16
   },
   buttonText: {
-    color: '#FFF',
+    color: '#000',
     fontSize: 24
   },
   button: {
     width: 56,
     height: 56,
     borderRadius: 5,
-    backgroundColor: '#E23C44',
+    backgroundColor: '#DF1',
     alignItems: 'center',
     justifyContent: 'center'
   },

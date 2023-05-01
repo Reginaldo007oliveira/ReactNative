@@ -5,8 +5,7 @@ export const styles = StyleSheet.create({
       flex: 1,
       backgroundColor: '#131016',
       padding: 24,
-      display:"flex",
-      alignItems:"center",
+     
     },
     eventName: {
       color: '#FDFCFE',
@@ -46,5 +45,10 @@ export const styles = StyleSheet.create({
       flexDirection: 'row',
       marginTop: 36,
       marginBottom: 42
+    },
+    listEmptyText: {
+      color: '#FFF',
+      fontSize: 14,
+      textAlign: 'center'
     }
   })
