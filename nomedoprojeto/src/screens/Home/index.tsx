@@ -7,6 +7,9 @@ export  function Home() {
   function handleParticipantAdd() {
     console.log("Você clicou no botão de Adicionar!");
   }
+  function handleParcipantRemove(name: string){
+    console.log(`Você removeu o participante ${name}`);
+  }
   return (
     <View style={styles.container}>
       <Text style={styles.eventName}>
@@ -14,7 +17,7 @@ export  function Home() {
       </Text>
 
       <Text style={styles.eventDate}>
-        Sexta, 4 de Novembro de 2022.
+        Segunda, 5 de Maio de 2023.
       </Text>
       <View style={styles.form}>
       <TextInput 
@@ -29,10 +32,10 @@ export  function Home() {
         </Text>
       </TouchableOpacity>
       </View>
-      <Participant name="Rodrigo" />
-      <Participant name="Diego" />
-      <Participant name="Vini" />
-      <Participant name="Biro" />
+      <Participant name="Rodrigo"onRemove={() =>handleParcipantRemove('Rodrigo')} />
+      <Participant name="Diego"onRemove={() =>handleParcipantRemove('2')} />
+      <Participant name="Vini" onRemove={() =>handleParcipantRemove('3')} />
+      <Participant name="Biro" onRemove={() =>handleParcipantRemove('4')} />
     </View>
   )
 }
