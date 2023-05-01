@@ -15,6 +15,7 @@ export  function Home() {
       <Text style={styles.eventDate}>
         Sexta, 4 de Novembro de 2022.
       </Text>
+      <View style={styles.form}>
       <TextInput 
         style={styles.input}
         placeholder="Nome do participante"
@@ -26,6 +27,7 @@ export  function Home() {
           +
         </Text>
       </TouchableOpacity>
+      </View>
     </View>
   )
 }
