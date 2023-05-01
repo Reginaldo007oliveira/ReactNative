@@ -12,7 +12,7 @@ export const styles = StyleSheet.create({
   name: {
     flex: 1,
     fontSize: 16,
-    color: '#FFF',
+    color: '#df1',
     marginLeft: 16
   },
   buttonText: {
@@ -26,5 +26,5 @@ export const styles = StyleSheet.create({
     backgroundColor: '#E23C44',
     alignItems: 'center',
     justifyContent: 'center'
-  }
+  },
 })
