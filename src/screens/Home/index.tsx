@@ -42,8 +42,8 @@ export  function Home() {
       <View style={styles.form}>
       <TextInput 
         style={styles.input}
-        placeholder="Nome do participante"
-        placeholderTextColor="#6B6B6B"
+        placeholder="Nome do participantes"
+        placeholderTextColor="#cfe410"
         onChangeText={setParticipantName}
           value={participantName}
        
